@@ -22,5 +22,8 @@
     "babel-loader": "^7.1.4",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "moment": "^2.22.1"
   }
 }
