@@ -1,0 +1,26 @@
+{
+  "name": "@konojunya/dynamic-import-sample",
+  "version": "1.0.0",
+  "description": "[CODE SANDBOX] dynamic import sample: webpack4",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konojunya/dynamic-import-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konojunya/dynamic-import-sample/issues"
+  },
+  "homepage": "https://github.com/konojunya/dynamic-import-sample#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
+  }
+}
