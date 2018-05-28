@@ -1,8 +1,7 @@
-const getMoment = async () => {
-  const moment = await import("moment")
-  return moment().format("YYYY/MM/dd")
+import moment from "moment"
+
+const getDate = () => {
+  return moment().format("YYYY/MM/DD")
 }
 
-export default () => {
-  return getMoment()
-}
+export default getDate
